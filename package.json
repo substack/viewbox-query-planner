@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "polygon-clipping": "^0.15.3",
+    "rectangle-decomposition": "^1.0.0"
+  },
+  "devDependencies": {
+    "choo": "^7.1.0",
+    "regl": "^2.1.0",
+    "tape": "^5.2.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  }
+}
