@@ -2,12 +2,12 @@
 
 calculate rectangular bbox regions to query as a viewbox pans across 2d data
 
-If you have a spatial database, you can query rectangular regions by the bboxes emitted by the
+If you have a spatial database, you can query rectangular regions by the bboxes emitted from the
 `update()` function as a user pans a map. You'll also want to cull the results from old bboxes as
 keeping old bboxes around that don't intersect the current viewbox slows down the polygon
 operations.
 
-In this future this module might use polygon clipping routines specific to rectilinear polygon
+In the future this module might use polygon clipping routines specific to rectilinear polygon
 geometry, which might speed things up considerably.
 
 # example
