@@ -35,7 +35,7 @@ Planner.prototype.update = function(bbox) {
     }
     return rects
   } else {
-    return [bbox]
+    return [[w,s,e,n]]
   }
 }
 
